@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="150px" height="150px" viewBox="0 0 150 150" enable-background="new 0 0 150 150" xml:space="preserve">
+<g>
+	<defs>
+		<polygon id="SVGID_1_" points="74.836,-0.332 74.836,73.829 74.836,148.663 149.671,73.829 75.51,-0.332 		"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  overflow="visible"/>
+	</clipPath>
+	
+		<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="0.835" y1="149.707" x2="1.729" y2="149.707" gradientTransform="matrix(71.2664 0 0 -71.2664 30.75 10743.25)">
+		<stop  offset="0" style="stop-color:#E9652A"/>
+		<stop  offset="1" style="stop-color:#A14B19"/>
+	</linearGradient>
+	<rect x="74.836" y="-0.332" clip-path="url(#SVGID_2_)" fill="url(#SVGID_3_)" width="74.834" height="148.995"/>
+</g>
+<g>
+	<defs>
+		<path id="SVGID_4_" d="M0,73.829l74.161-74.16L0,73.829z M74.161-0.332L0,73.829h74.836v-74.16H74.161z"/>
+	</defs>
+	<clipPath id="SVGID_5_">
+		<use xlink:href="#SVGID_4_"  overflow="visible"/>
+	</clipPath>
+	
+		<linearGradient id="SVGID_6_" gradientUnits="userSpaceOnUse" x1="1.2266" y1="150.1055" x2="2.1203" y2="150.1055" gradientTransform="matrix(0 54.5757 54.5757 0 -8154.6875 -41.9375)">
+		<stop  offset="0" style="stop-color:#E9652A"/>
+		<stop  offset="1" style="stop-color:#A14B19"/>
+	</linearGradient>
+	<rect y="-0.332" clip-path="url(#SVGID_5_)" fill="url(#SVGID_6_)" width="74.836" height="74.16"/>
+</g>
+<g>
+	<defs>
+		<polygon id="SVGID_7_" points="0,73.829 74.836,148.663 74.836,73.829 		"/>
+	</defs>
+	<clipPath id="SVGID_8_">
+		<use xlink:href="#SVGID_7_"  overflow="visible"/>
+	</clipPath>
+	
+		<linearGradient id="SVGID_9_" gradientUnits="userSpaceOnUse" x1="0.8394" y1="149.7578" x2="1.7332" y2="149.7578" gradientTransform="matrix(36.6328 0 0 -36.6328 10.4062 5597.3125)">
+		<stop  offset="0" style="stop-color:#E9652A"/>
+		<stop  offset="1" style="stop-color:#A14B19"/>
+	</linearGradient>
+	<rect y="73.829" clip-path="url(#SVGID_8_)" fill="url(#SVGID_9_)" width="74.836" height="74.834"/>
+</g>
+</svg>
