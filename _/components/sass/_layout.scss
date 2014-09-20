@@ -1,5 +1,120 @@
 @include border-box-sizing;
 
-$small: 30em;
-$medium-screen: 47em;
-$large: 75em;
+$small                : 30em;
+$medium               : 47em;
+$large                : 75em;
+
+$susy: (
+    columns: 12,
+    gutters: 1/8,
+    math: fluid,
+    output: float,
+    gutter-position: inside,
+    container: 50%,
+    container-position: center
+);
+
+
+.arbeid{
+    @include container(50%);
+    margin: 1em auto;
+}
+
+@media screen and (max-width: $small){
+    .arbeid{
+      @include container(100%);
+    }
+}
+@media screen and (max-width: $medium){
+    .arbeid{
+      @include container(100%);
+    }
+}
+.prosjektet{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    overflow: hidden;
+}
+
+.arbeidet{
+    @include span(6);
+    padding: 1em;
+    
+}
+.arbeidet img{
+    width: 100%;
+    display: block;
+}
+.beskrivelsen{
+    @include span(6);
+}
+
+.prosjektet:hover{
+	background: rgba(239,239,239,1);
+    color: #fff;
+}
+
+.prosjektet:hover{
+    h1,h5 {
+    color: $orange;
+    border-bottom-color: $orange; 
+    }
+   
+}
+
+.titleMob{
+    display: none;
+    margin-top: 1em;
+}
+
+@media screen and (max-width:$medium){
+    .beskrivelsen,
+    .arbeidet{
+        @include span(12);
+    }
+    .titleMob{
+        display: block;
+    }
+    .beskrivelsen{
+        display: none;
+    }
+}
+.beskrivelsen h1,
+.beskrivelsen h5{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    text-transform: capitalize;
+}
+.beskrivelsen
+.beskrivelsen h1:after{
+    content:" ";
+    width:55px;
+    border-bottom: 2px solid $darkgray;
+    clear:both;
+    display: block;
+    margin:13px auto;
+}
+.beskrivelsen p{
+    position: relative;
+    display: block;
+    width: 33em;
+    margin: 1em auto;
+}
+
+//Munch//
+.munch{
+    @include container(75%);
+}
+
+footer{
+    @include span(12);
+    height: 150px;
+    background-color: $limegreen;
+    margin-top: 2em;
+    
+    .footList{
+        @include span(6);
+    }
+}

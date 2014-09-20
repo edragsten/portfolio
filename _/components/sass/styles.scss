@@ -1,11 +1,9 @@
 @import "compass";
 @import "compass/reset";
 @import "susy";
-@import "bourbon/bourbon";
-@import "neat/neat";
-@import "base/base";
 @import "variables";
+@import "typography";
 @import "mixins";
-@import "base";
 @import "layout";
+@import "base";
 @modules "modules";
